@@ -2,16 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+You can check if Yarn is installed on your PC with the command `yarn --version`
+
 First, run the development server:
 
 ```bash
-npm run dev
-# or
+yarn install
+# next step
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
