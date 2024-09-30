@@ -9,8 +9,8 @@ const Logo = ({ className }: LogoProps) => (
     <Link className={`block w-[11.875rem] ${className || ""}`} href="/">
         <Image
             src="/images/yei.svg"
-            width={190}
-            height={40}
+            width={225}
+            height={49}
             priority={true}
             alt="Yei Finance"
         />
