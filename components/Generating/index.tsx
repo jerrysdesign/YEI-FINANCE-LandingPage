@@ -11,7 +11,7 @@ const Generating = ({ className }: GeneratingProps) => (
         } text-base`}
     >
         <Image
-            className="w-5 h-5 mr-4"
+            className="w-5 h-5 mr-4 animate-spin"
             src="/images/loading.png"
             width={20}
             height={20}
