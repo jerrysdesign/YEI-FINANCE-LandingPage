@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
+import "@splidejs/react-splide/css";
+import "tippy.js/animations/shift-toward.css";
 import "./globals.css";
 import { Sora, Source_Code_Pro, Space_Grotesk } from "next/font/google";
 
@@ -135,7 +135,7 @@ export default function RootLayout({
 							<stop offset="100%" stopColor="#D87CEE" />
 						</linearGradient>
 					</defs>
-			</svg>
+			    </svg>
 			</body>
 		</html>
 	);
