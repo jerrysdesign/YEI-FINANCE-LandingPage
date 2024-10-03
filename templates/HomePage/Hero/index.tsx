@@ -4,7 +4,7 @@ import Section from "@/components/Section";
 import Button from "@/components/Button";
 import Image from "@/components/Image";
 import Generating from "@/components/Generating";
-import Logos from "@/components/Logos";
+import PowerBy from "@/components/Power";
 
 type HeroProps = {};
 
@@ -42,7 +42,7 @@ const Hero = ({}: HeroProps) => {
                     <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
                         Optimize your investments across our platform.
                     </p>
-                    <Button href="/pricing" white>
+                    <Button href="https://app.yei.finance" white>
                         Get started
                     </Button>
                 </div>
@@ -78,10 +78,10 @@ const Hero = ({}: HeroProps) => {
                         <div className="absolute top-1/2 left-1/2 w-[51.375rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
                         <div className="absolute top-1/2 left-1/2 w-[36.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
                         <div className="absolute top-1/2 left-1/2 w-[23.125rem] aspect-square border border-n-2/10 rounded-full -translate-x-1/2 -translate-y-1/2"></div>
-                        {/* <MouseParallax
+                        <MouseParallax
                             strength={0.07}
                             parallaxContainerRef={parallaxRef}
-                        > */}
+                        >
                         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[46deg]">
                             <div
                                 className={`w-2 h-2 -ml-1 -mt-36 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
@@ -136,10 +136,10 @@ const Hero = ({}: HeroProps) => {
                                 }`}
                             ></div>
                         </div>
-                        {/* </MouseParallax> */}
+                        </MouseParallax>
                     </div>
                 </div>
-                <Logos className="hidden relative z-10 mt-20 lg:block" />
+                <PowerBy className="hidden relative z-10 mt-20 lg:block" />
             </div>
             <div className="hidden absolute top-[55.25rem] left-10 right-10 h-0.25 bg-n-6 pointer-events-none xl:block"></div>
             <svg
