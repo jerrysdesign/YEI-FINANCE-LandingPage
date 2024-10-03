@@ -5,7 +5,9 @@ import Image from "@/components/Image";
 
 import { totalNumber } from "@/mocks/total-number";
 
-const TotalNumberList = ({ monthly = true }: TotalNumberListProps) => {
+type TotalNumberListProps = {};
+
+const TotalNumberList = ({}: TotalNumberListProps) => {
     const [activeIndex, setActiveIndex] = useState<number>(0);
 
     const ref = useRef<any>(null);

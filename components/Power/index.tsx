@@ -1,6 +1,6 @@
 import Image from "@/components/Image";
 
-type LogosProps = {
+type PowerByProps = {
     className?: string;
 };
 

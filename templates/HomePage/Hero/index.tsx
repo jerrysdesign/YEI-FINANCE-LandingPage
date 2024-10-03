@@ -47,22 +47,12 @@ const Hero = ({}: HeroProps) => {
                     </Button>
                 </div>
                 <div className="relative max-w-[23.25rem] mx-auto md:max-w-5xl xl:mb-24">
-                    <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
-                        <div className="relative bg-n-8 rounded-[0.875rem]">
-                            <div className="aspect-[33/40] rounded-b-[0.875rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                                <Image
-                                    className="w-full scale-[1.5] translate-y-[40%] md:scale-[1.25] md:translate-y[10%] lg:translate-y-[0%]"
-                                    src="/images/hero/yeda.png"
-                                    width={1024}
-                                    height={490}
-                                    alt="YEDA"
-                                />
+                    <div className="relative z-1 p-0.5 rounded-2xl">
+                        <div className="relative">
+                            <div className="aspect-[33/40] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                             </div>
-                            <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[30.5rem] md:-translate-x-1/2" />
                         </div>
                     </div>
-                    <div className="relative z-1 h-6 mx-2.5 bg-[#1B1B2E] shadow-xl rounded-b-[1.25rem] lg:h-6 lg:mx-8"></div>
-                    <div className="relative z-1 h-6 mx-6 bg-[#1B1B2E]/70 shadow-xl rounded-b-[1.25rem] lg:h-6 lg:mx-20"></div>
                     <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
                         <Image
                             className="w-full"
